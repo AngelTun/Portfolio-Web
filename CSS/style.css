@@ -1,0 +1,46 @@
+/*Google fonts (Para importar google fonts)*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+:root
+{
+    --main-color: #0b178f;
+    --text-color: #1c2844;
+}
+
+img
+{
+    width: 100%;
+}
+
+body
+{
+    color: #fff;
+    background: var(--main-color);
+}
+
+/*para personalizar la barra de desplazamiento*/
+html::-webkit-scrollbar
+{
+    width: 0.5rem;
+}
+
+html::-webkit-scrollbar-track
+{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb
+{
+    background: var(--main-color);
+    border-radius: 5rem;
+}
