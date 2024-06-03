@@ -208,11 +208,11 @@ header
 .about-img img
 {
     width: 100%;
-    height: 100%;
-    border-radius: 50%;
+    height: auto;
+    border-radius: 0%;
     object-fit: cover;
     object-position: center;
-    background: var(--main-color);
+
 }
 
 .social
