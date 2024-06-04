@@ -364,3 +364,62 @@ header
     top: 0;
     transition: 0.2s;
 }
+
+.contact-form
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.contact-form form
+{
+    position: relative;
+    width: 400px;
+}
+
+form input, form textarea
+{
+    width: 100%;
+    padding: 14px;
+    border: none;
+    outline: none;
+    background: rgb(28, 40, 68, 0.8);
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+    color: #fff;
+}
+
+form input::placeholder, form textarea::placeholder
+{
+    color: #fff;
+}
+
+textarea
+{
+    resize: none;
+    height: 200px;
+}
+
+form .send-btn
+{
+    max-width: 110px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+form .send-btn:hover
+{
+    background-color: var(--main-color);
+}
+
+.copyright
+{
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    background: var(--text-color);
+}
+
