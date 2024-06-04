@@ -234,6 +234,11 @@ header.shadow
     color: #fff;
     padding: 10px;
     border-radius: 4px;
+    background: var(--text-color);
+}
+
+.social a .bx:hover
+{
     background: var(--main-color);
 }
 
